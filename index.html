@@ -1,30 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Portfolio</title>
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" href="style.css" />
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    header>
-      <nav>
+    <aside class="sidebar">
+      <div class="sidebar-profile">
+        <img src="img/perfil.JPG" alt="Foto Perfil" />
+      </div>
+      <h2 class="sidebar-title">PORTFOLIO</h2>
+      <p class="sidebar-template"></p>
+      <nav class="sidebar-nav">
         <ul>
-          <li><a href="#Inicio">Home</a></li>
-          <li><a href="#about">Sobre Mim</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#contact">Contato</a></li>
+          <li><a href="#inicio" class="active">INÍCIO</a></li>
+          <li><a href="#sobre">SOBRE</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contato">CONTATO</a></li>
         </ul>
-        <main>
-          <section id="inicio" class="perfil">
-
-          </section>
-        </main>
       </nav>
+      <div class="sidebar-social">
+        <a
+          href="https://Facebook.com"
+          aria-label="Facebook"
+          title="Facebook"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a
+          href="https://instagram.com"
+          aria-label="Instagram"
+          title="Instagram"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a
+          href="https://dribbble.com/WalneiOliveira"
+          aria-label="Dribbble"
+          title="Dribbble"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa fa-dribbble"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/walnei-oliveira/"
+          aria-label="LinkedIn"
+          title="LinkedIn"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </div>
+    </aside>
+    <div class="main-content">
+      <header>
+        <h1>Meu Portfólio</h1>
+      </header>
+      <main>
+        <section id="inicio" class="destaque">
+          <h2>Início</h2>
+          <p>
+            Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre
+            minha trajetória, habilidades e projetos desenvolvidos ao longo da
+            minha carreira como desenvolvedor.
+          </p>
+          <p>
+            Meu objetivo é criar soluções inovadoras e funcionais, sempre
+            buscando aprimorar meus conhecimentos em tecnologias modernas e
+            entregar resultados de alta qualidade.
+          </p>
+          <p>
+            Este portfólio é uma vitrine do meu trabalho, onde você pode
+            explorar alguns dos projetos que desenvolvi e conhecer mais sobre
+            minha abordagem ao design e desenvolvimento de interfaces.
+          </p>
+          <p>
+            Navegue pelas seções para conhecer mais sobre mim, meus trabalhos e
+            como entrar em contato.
+          </p>
+        </section>
+        <section id="sobre" class="destaque">
+          <h2>Sobre Mim</h2>
+          <p>
+            Sou um desenvolvedor apaixonado por tecnologia, com experiência em
+            projetos de interfaces modernas e acessíveis. Gosto de aprender
+            novas ferramentas e contribuir para soluções inovadoras.
+          </p>
+          <p>
+            Atualmente, estou focado em aprimorar minhas habilidades em Webflow
+            e OutSystems, buscando sempre entregar projetos de alta qualidade e
+            que atendam às necessidades dos usuários.
+          </p>
+          <p>
+            Acredito que a tecnologia deve ser uma aliada na criação de
+            experiências únicas e funcionais, e estou sempre em busca de
+            desafios que me permitam crescer profissionalmente e pessoalmente.
+          </p>
+          <p>
+            Com uma abordagem centrada no usuário, busco entender as
+            necessidades de cada projeto e aplicar as melhores práticas de
+            design e desenvolvimento para criar soluções que sejam não apenas
+            funcionais, mas também agradáveis de usar.
+          </p>
+          <p>
+            Se você está procurando um desenvolvedor comprometido e criativo,
+            estou aberto a novas oportunidades e colaborações. Vamos conversar!
+          </p>
+        </section>
+        <section id="portfolio" class="portfolio-section">
+          <h2>Portfólio</h2>
+          <div class="portfolio-grid">
+            <div class="portfolio-card">
+              <a
+                href="https://felislandingpage.webflow.io/"
+                target="_blank"
+                class="portfolio-thumb-link"
+              >
+                <div class="portfolio-thumb">
+                  <img src="img/felis.png" alt="Felis Landing Page Preview" />
+                </div>
+              </a>
+              <div class="portfolio-desc">
+                <h4>Webflow</h4>
+                <p>Felis Landing Page</p>
+              </div>
+            </div>
+            <div class="portfolio-card">
+              <a
+                href="https://portfoliowork.webflow.io/"
+                target="_blank"
+                class="portfolio-thumb-link"
+              >
+                <div class="portfolio-thumb">
+                  <img
+                    src="img/finsweet.png"
+                    alt="finsweet Landing Page Preview"
+                  />
+                </div>
+              </a>
+              <div class="portfolio-desc">
+                <h4>Webflow</h4>
+                <p>Design Landing Page</p>
+              </div>
+            </div>
+            <div class="portfolio-card">
+              <a
+                href="https://personal-z3lzvlos.outsystemscloud.com/Banking/Home"
+                target="_blank"
+                class="portfolio-thumb-link"
+              >
+                <div class="portfolio-thumb">
+                  <img src="img/bank.png" alt="Felis Landing Page Preview" />
+                </div>
+              </a>
+              <div class="portfolio-desc">
+                <h4>OutSystems</h4>
+                <p>Bank Project</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contato" class="destaque">
+          <h2>Contato</h2>
+          <p>
+            Se você deseja saber mais sobre meu trabalho, discutir uma
+            colaboração ou simplesmente dizer olá, sinta-se à vontade para
+            entrar em contato comigo.
+          </p>
+          <p>
+            Você pode me encontrar nas redes sociais ou enviar uma mensagem
+            diretamente através do formulário abaixo.
+          </p>
+          <form
+            class="contato-form"
+            action="#"
+            method="post"
+            autocomplete="off"
+          >
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel" name="tel" />
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              required
+            ></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2025 Walnei Oliveira. Todos os direitos reservados.</p>
+      </footer>
+    </div>
   </body>
 </html>
