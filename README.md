@@ -4,7 +4,7 @@ Este é o repositório do meu portfólio profissional, desenvolvido para apresen
 
 ## 📄 Sobre
 
-O projeto foi inspirado em templates modernos como o W3.CSS Portfolio, com layout responsivo, navegação por seções e foco em usabilidade e clareza das informações.
+O projeto foi inspirado em templates modernos como o w3school, com layout responsivo, navegação por seções e foco em usabilidade e clareza das informações.
 
 ## 🚀 Tecnologias Utilizadas
 

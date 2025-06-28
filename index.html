@@ -15,23 +15,27 @@
     />
   </head>
   <body>
+    <!-- Barra Lateral -->
     <aside class="sidebar">
+      <!-- Menu Lateral -->
       <div class="sidebar-profile">
         <img src="img/perfil.JPG" alt="Foto Perfil" />
       </div>
-      <h2 class="sidebar-title">PORTFOLIO</h2>
+      <h2 class="sidebar-title">WALNEI OLIVEIRA</h2>
+      <h3 class="sidebar-subtitle">DEVELOPER</h3>
       <p class="sidebar-template"></p>
       <nav class="sidebar-nav">
         <ul>
-          <li><a href="#inicio" class="active">INÍCIO</a></li>
-          <li><a href="#sobre">SOBRE</a></li>
+          <li><a href="#sobre" class="active">SOBRE</a></li>
+          <li><a href="#formacao">FORMAÇÃO</a></li>
           <li><a href="#portfolio">PORTFOLIO</a></li>
           <li><a href="#contato">CONTATO</a></li>
         </ul>
       </nav>
+      <!-- Redes Socias -->
       <div class="sidebar-social">
         <a
-          href="https://Facebook.com"
+          href="https://facebook.com"
           aria-label="Facebook"
           title="Facebook"
           target="_blank"
@@ -39,7 +43,7 @@
           ><i class="fa fa-facebook"></i
         ></a>
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com"
           aria-label="Instagram"
           title="Instagram"
           target="_blank"
@@ -64,13 +68,16 @@
         ></a>
       </div>
     </aside>
+    <!-- Conteúdo Principal -->
     <div class="main-content">
+      <!-- Cabeçalho -->
       <header>
-        <h1>Meu Portfólio</h1>
+        <h1>PORTFOLIO</h1>
       </header>
       <main>
-        <section id="inicio" class="destaque">
-          <h2>Início</h2>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="destaque">
+          <h2>Sobre Mim</h2>
           <p>
             Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre
             minha trajetória, habilidades e projetos desenvolvidos ao longo da
@@ -87,15 +94,13 @@
             minha abordagem ao design e desenvolvimento de interfaces.
           </p>
           <p>
-            Navegue pelas seções para conhecer mais sobre mim, meus trabalhos e
+            Navegue pelas seções para conhecer mais sobre mim, minhas formações, meus trabalhos e
             como entrar em contato.
           </p>
         </section>
-        <section id="sobre" class="destaque">
-          <h2>Sobre Mim</h2>
-            <p>
-            Sou um desenvolvedor apaixonado por tecnologia, com sólida experiência na criação de interfaces modernas, acessíveis e responsivas. Estou sempre em busca de novos conhecimentos, explorando ferramentas e tendências para entregar soluções inovadoras e de alto impacto. Valorizo o aprendizado contínuo e a colaboração em projetos que desafiem minha criatividade e habilidades técnicas.
-            </p>
+        <!-- Seção Formação -->
+        <section id="formacao" class="destaque">
+          <h2>Formação</h2>
           <p>
             Atualmente, estou focado em aprimorar minhas habilidades em Webflow
             e OutSystems, buscando sempre entregar projetos de alta qualidade e
@@ -117,9 +122,12 @@
             estou aberto a novas oportunidades e colaborações. Vamos conversar!
           </p>
         </section>
+        <!-- Seção Portfolio -->
         <section id="portfolio" class="portfolio-section">
           <h2>Portfólio</h2>
+          <!-- Grid de Cards -->
           <div class="portfolio-grid">
+            <!-- Card 1 -->
             <div class="portfolio-card">
               <a
                 href="https://felislandingpage.webflow.io/"
@@ -135,6 +143,7 @@
                 <p>Felis Landing Page</p>
               </div>
             </div>
+            <!-- Card 2 -->
             <div class="portfolio-card">
               <a
                 href="https://portfoliowork.webflow.io/"
@@ -153,6 +162,7 @@
                 <p>Design Landing Page</p>
               </div>
             </div>
+            <!-- Card 3 -->
             <div class="portfolio-card">
               <a
                 href="https://personal-z3lzvlos.outsystemscloud.com/Banking/Home"
@@ -165,12 +175,60 @@
               </a>
               <div class="portfolio-desc">
                 <h4>OutSystems</h4>
-                <p>Bank Project</p>
+                <p>Low code</p>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="portfolio-card">
+              <a
+                href="https://dribbble.com/WalneiOliveira"
+                target="_blank"
+                class="portfolio-thumb-link"
+              >
+                <div class="portfolio-thumb">
+                  <img src="img/anne.png" alt="Anne Thomson Landing Page Preview" />
+                </div>
+              </a>
+              <div class="portfolio-desc">
+                <h4>Design</h4>
+                <p>Anne Thomson</p>
+              </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="portfolio-card">
+              <a
+                href="https://dribbble.com/WalneiOliveira"
+                target="_blank"
+                class="portfolio-thumb-link"
+              >
+                <div class="portfolio-thumb">
+                  <img src="img/amanda.png" alt="Amanda Landing Page Preview" />
+                </div>
+              </a>
+              <div class="portfolio-desc">
+                <h4>Design</h4>
+                <p>Amanda Perry</p>
+              </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="portfolio-card">
+              <a
+                href="https://dribbble.com/WalneiOliveira"
+                target="_blank"
+                class="portfolio-thumb-link"
+              >
+                <div class="portfolio-thumb">
+                  <img src="img/new_age.png" alt="New Age Landing Page Preview" />
+                </div>
+              </a>
+              <div class="portfolio-desc">
+                <h4>Design</h4>
+                <p>New Age</p>
               </div>
             </div>
           </div>
         </section>
-
+        <!-- Seção Contato -->
         <section id="contato" class="destaque">
           <h2>Contato</h2>
           <p>
@@ -182,11 +240,13 @@
             Você pode me encontrar nas redes sociais ou enviar uma mensagem
             diretamente através do formulário abaixo.
           </p>
+          <!-- Formulário -->
           <form
             class="contato-form"
             action="#"
             method="post"
             autocomplete="off"
+            onsubmit="alert('Mensagem enviada!'); return false;"
           >
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required />
@@ -210,8 +270,8 @@
         </section>
       </main>
       <footer>
-        <p>&copy; 2025 Walnei Oliveira. Todos os direitos reservados.</p>
-        
+        <p>&copy; <span id="year"></span> Walnei Oliveira. Todos os direitos reservados.</p>
+        <script src="script.js"></script>
       </footer>
     </div>
   </body>
